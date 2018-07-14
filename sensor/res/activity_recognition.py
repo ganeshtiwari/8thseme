@@ -23,6 +23,8 @@ def main():
         # pprint(data)
         return data
 
+    # Uncomment following lines for drawing graphs (Warning: main loop exits before this thing)
+
     # def featureNormalize(dataset):
     #     mu = np.mean(dataset, axis=0)
     #     sigma = np.std(dataset, axis=0)

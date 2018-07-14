@@ -21,7 +21,6 @@ def set_keras_backend(backend):
 set_keras_backend("theano")
 
 result = ''
-label = ['downstair', 'jogging', 'sitting', 'standing', 'upstair', 'walking']
 count = 0
 model = load_model("sensor/model.h5")
 
